@@ -1,4 +1,4 @@
 # DigiTrail
-DigiTrail Mobile App Open Source Project
+DigiTrail Mobile App
 
-Find help and documentation [here](https://hamk-uas.github.io/digitrail/)
+You can find further documentation and help to set up your own development environment for DigiTrail derived apps [here](https://hamk-uas.github.io/digitrail/).
