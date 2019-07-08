@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="fi.hamk.digitrailapp" android:installLocation="preferExternal" android:versionCode="27" android:versionName="1.2.4 Internal">
+	<uses-sdk android:minSdkVersion="22" android:targetSdkVersion="28" />
+	<supports-screens android:resizeable="true" android:largeScreens="true" android:xlargeScreens="true" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<application android:allowBackup="true" android:label="@string/appName" android:icon="@mipmap/icon" android:theme="@style/DigiTrailTheme" android:hardwareAccelerated="true"></application>
+</manifest>

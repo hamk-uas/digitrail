@@ -1,0 +1,53 @@
+﻿<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group
+    android:checkableBehavior="single"
+    android:id="@+id/group1"
+    android:title="Group1">
+    <item
+      android:id="@+id/nav_Map"
+      android:icon="@drawable/maplayers"
+      android:title="@string/drawerMap"
+      android:checked ="true"/>
+    <item
+     android:id="@+id/nav_Locations"
+     android:icon="@drawable/iconRoutes"
+     android:title="@string/drawerTrails" />
+    <item
+      android:id="@+id/nav_Activities"
+      android:icon="@drawable/iconActivities"
+      android:title="@string/drawerActivities"      
+      android:checkable="false"/>       
+    <item
+      android:id="@+id/nav_Events"
+      android:icon="@drawable/iconNews"
+      android:title="@string/drawerEvents"
+      />
+  </group>
+
+  <group
+    android:id="@+id/SubItem"
+    android:icon="@drawable/developer"
+    android:title="Group2">
+    <item
+      android:id="@+id/nav_Settings"
+      android:icon="@drawable/iconSettings"
+      android:title="@string/drawerSettings"
+      android:checkable="true"/>
+    <item
+      android:id="@+id/nav_Feedback"
+      android:icon="@drawable/iconFeedback"
+      android:title="@string/drawerSendFeedback"
+      android:checkable="false"/>
+    <item
+      android:id="@+id/nav_Guide"
+      android:icon="@drawable/iconHelp"
+      android:title="@string/drawerGuide"
+      android:checkable="false"/>
+    <item
+      android:id="@+id/nav_TermsOS"
+      android:icon="@drawable/iconTerms"
+      android:title="@string/drawerTermsOS"
+      android:checkable="false"/>
+  </group>
+</menu>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	xmlns:card_view="http://schemas.android.com/apk/res-auto"	
+	android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:gravity="top"
+	android:id="@+id/emergensyLayout"
+	>
+	<android.support.v7.widget.CardView
+		android:layout_width="130dp"
+		android:layout_height="wrap_content"
+		card_view:cardCornerRadius="5dp"
+		android:layout_gravity="bottom|center"
+		android:elevation="100dp"
+		android:layout_marginTop="-5dp"
+		android:visibility="visible"
+		card_view:cardBackgroundColor="@color/dt_darkgreen"
+		android:id="@+id/CardViewEmergency">
+		<TextView
+			android:text="@string/Emergencynum"
+			android:textColor="@color/dt_orange"
+			android:textSize="12dp"
+			android:layout_marginTop="5dp"
+			android:padding="3dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:id="@+id/tvEmergency" />
+		</android.support.v7.widget.CardView>
+</LinearLayout>

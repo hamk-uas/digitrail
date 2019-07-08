@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dt_darkgreen"
+    android:id="@+id/rlObjectiveThemeMarkerLayout">
+    <ScrollView
+        android:id="@+id/svObjectiveThemeMarkerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/lvObjectiveThemeMarkerLayoutAnswerlist"
+        android:isScrollContainer="true"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+			android:padding="5dp">
+            <TextView
+                android:id="@+id/tvObjectiveThemeMarkerLayoutTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+				android:text ="Title"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <ImageView
+                android:id="@+id/ivObjectiveThemeMarkerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:layout_centerInParent="true"
+				android:layout_below="@id/tvObjectiveThemeMarkerLayoutTitle"
+                android:adjustViewBounds="true"
+                android:src="@android:drawable/ic_menu_gallery"
+                android:scaleType="centerInside"
+                android:visibility="gone" />
+            <TextView
+                android:id="@+id/tvObjectiveThemeMarkerLayoutDescription"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+				android:layout_below="@+id/ivObjectiveThemeMarkerLayout"
+				android:text="Description"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+				android:autoLink="web"/>
+			<TextView
+				android:id="@+id/tvObjectiveThemeMarkerLayoutLink"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/tvObjectiveThemeMarkerLayoutDescription"
+				android:text="Link"
+                android:visibility="invisible"
+				android:autoLink="web"/>
+        </RelativeLayout>
+    </ScrollView>
+    <ListView
+        android:id="@id/lvObjectiveThemeMarkerLayoutAnswerlist"
+        android:layout_above="@+id/btnObjectiveThemeMarkerLayoutClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnObjectiveThemeMarkerLayoutClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginBottom="20dp"
+        android:text="@string/btnClose"
+        android:background="@color/dt_lightgreen"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

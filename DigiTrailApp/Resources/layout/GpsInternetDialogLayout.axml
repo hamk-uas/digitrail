@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/headersecond">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/tvCustomDialogTitle"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="25dp"
+            android:paddingBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp" />
+        <TextView
+            android:text="Content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/tvCustomDialogContent"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingBottom="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/RelativeButtonLayout">
+            <Button
+                android:text="Cancel"
+                android:id="@+id/btnCustomDialogNegative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="52dp"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="25dp"
+                style="@style/DigiTrailTheme" />
+            <Button
+                android:text="OK"
+                android:id="@+id/btnCustomDialogPositive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/btnCustomDialogNegative"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="25dp"
+                style="@style/DigiTrailTheme" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

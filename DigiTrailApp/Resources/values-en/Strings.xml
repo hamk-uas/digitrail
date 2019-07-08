@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--ENGLISH LANGUAGE-->
+<resources>
+  <!--APPLICATION INFO-->
+  <string name="appName">DigiTrail</string>
+  <!--DrawerStates-->
+  <string name="openDrawer">Settings</string>
+  <string name="closeDrawer">DigiTrail</string>
+  <!--SettingsFragment-->
+  <string name="english">English</string>
+  <string name="finnish">Suomi</string>
+  <string name="optionLanguage">Languages</string>
+  <string name="btnPickLang">Choose your language</string>
+  <string name="settingsTitle">Digitrail settings</string>
+  <string name="langError">Language could not be changed</string>
+  <string name="langInUse">The language is already set to \u0020</string>
+  <string name="gpsToast">GPS and Location Services are enabled. Turn them off afterwards for longer battery life</string>
+  <string name="optionMapStyle">Map Style</string>
+  <string name="mapStyle">Choose style for the map</string>
+  <string name="optionsIgnoreBatteryTitle">Ignore low battery</string>
+  <string name="optionsIgnoreBatterySummary">Run services while battery is low or battery saver is on</string>
+  <string name="optionsHideNotificationsTitle">Hide notifications</string>
+  <string name="optionsHideNotificationsSummary">Hides all app notifications</string>
+  <!--LeftDrawer-->
+  <!--Features that aren't implemented yet have font tag to gray them out-->
+  <string name="drawerMap">Map</string>
+  <string name="drawerActivities">Activities</string>
+  <string name="drawerTrails">Trails</string>
+  <string name="drawerEvents">Events</string>
+  <string name="drawerSettings">Settings</string>
+  <string name="drawerSendFeedback">Send feedback</string>
+  <string name="drawerGuide">Help</string>
+  <string name="drawerTermsOS">Terms of Service</string>
+  <!-- ERRORS -->
+  <string name="errorTitle">Error</string>
+  <string name="errorFeatureNotInUse">Feature is not in use yet!</string>
+  <string name="errorAlreadyInMap">Already in map.</string>
+  <string name="errorNullFragment">Fragment given as paremeter is null!</string>
+  <string name="errorListIsNull">List given as parameter is null!</string>
+  <string name="errorMarkerToMap">Could not add a marker to map!</string>
+  <string name="errorThemeStart">Could not start a theme!</string>
+  <string name="errorFinishTrail">Could not finish trail!</string>
+  <string name="errorNoUserLocation">Could not locate device!</string>
+  <string name="errorGpsPermissionDenied">Permission to request the device location is required in order for the app to locate the device.</string>
+  <string name="errorGpsPermissionNeverAgain">Never ask again selected, or device policy prohibits the app from having this permission. Please check app permissions from settings to allow the app to locate the device.</string>
+  <string name="errorLoadingTrail">Couldn\'t download a trail file or open it from memory!</string>
+  <string name="errorProviderDisabled">Location has been disabled and location tracking has been stopped</string>
+  <string name="errorNoChartData">Elevation data unavailable</string>
+  <string name="errorNoObjectiveController">An error has occured when starting theme, and we can\'t track progress. Try to start the theme again to solve the issue.</string>
+  <string name="errorObjectiveAlreadyVisited">An error has occured during tracking progress, and results for this marker cannot be saved.</string>
+  <!--Generalized errors-->
+  <string name="errorNullParameter">Given parameter is null!</string>
+  <!--DB ERRORS-->
+  <string name="dbErrorLocationIsNullOrEmpty">Location given as parameter is null or empty!</string>
+  <string name="dbErrorTrailIdNullOrEmpty">Given trail ID is null or empty!</string>
+  <string name="dbErrorMarkerIdNullOrEmpty">Given marker ID is null or empty!</string>
+  <string name="dbErrorMarkerListEmptyError">Couldn\'t get markers from database!</string>
+  <string name="dbErrorNullClient">Client not initialized!</string>
+  <string name="dbErrorClientInitialized">Client already initialized!</string>
+  <string name="dbErrorGeneral">Error in database!</string>
+  <string name="dbErrorThemeIdNullOrEmpty">Given theme ID is null or empty!</string>
+  <string name="dbErrorPositionNullOrEmpty">Position given as parameter is null or empty!</string>
+  <string name="dbErrorMarkerTypeIdNullOrEmpty">Given marker type ID is null or empty!</string>
+  <string name="dbErrorLanguageNullOrEmpty">Given language is null or empty!</string>
+  <string name="dbErrorInvalid">Invalid operation with database!</string>
+  <!--BUTTONS-->
+  <string name="btnOpen">Open</string>
+  <string name="btnClose">Close</string>
+  <string name="btnOk">OK</string>
+  <string name="btnRetry">Retry</string>
+  <string name="btnCancel">Cancel</string>
+  <string name="btnYes">Yes</string>
+  <string name="btnNo">No</string>
+  <string name="btnExit">Exit</string>
+  <string name="btnStartTrail">Start trail</string>
+  <string name="btnSkip">Skip</string>
+  <!--Dialog content-->
+  <string name="dialogDefaultTitle">Sorry no info</string>
+  <string name="dialogDefaultContent">Sorry no content</string>
+  <string name="dialogAttentionTitle">Attention</string>
+  <string name="dialogFinishTrailTitle">Finish trail</string>
+  <string name="dialogFinishTrailContent">Do you want to finish trail?</string>
+  <string name="dialogGpsAttentionContent">Trail guidance is disabled because permission to access device location was denied. You can still use the app to look around.</string>
+  <string name="dialogGpsTitle">Location not enabled</string>
+  <string name="dialogGpsContent">Location tracking is not enabled, or isn\'t set to High Accuracy. You can look around without enabling location tracking, but we can\'t show your location on the map or give you guidance along a trail.\n\nDo you wan\'t to open setting to enable location tracking?</string>
+  <string name="dialogInternetTitle">No connection detected</string>
+  <string name="dialogInternetContent">You don\'t seem to have an active Internet connection. The application might not be able to show the map for you without it. Some content may also be unavailable.</string>
+  <string name="dialogInternetContentFirstTime">You don\'t seem to have an active Internet connection. The application needs to fetch data over an active connection on the first run in order to function. Please start the application when you have an active connection available!</string>
+  <string name="dialogHeadingBackTitle">Heading back?</string>
+  <string name="dialogHeadingBackContent">Seems like you are going the other way around, keep walking and we\'ll start guiding you towards the other end.</string>
+  <string name="dialogUserLostTitle">Don\'t get lost!</string>
+  <string name="dialogUserLostContent">Seems like you strayed from the trail. It\'s okay, just don\'t get lost.</string>
+  <string name="dialogSendFeedBackTitle">Feedback</string>
+  <string name="dialogSendFeedBackContent">Do you want to send feedback? The form will be opened in your web browser.</string>
+  <string name="dialogWarning">Warning</string>
+  <string name="dialogTrailWarning">The trail was loaded from device memory, because no active Internet connection was detected. The trail might not be up to date, please use caution!</string>
+  <string name="dialogHelpTitle">Help</string>
+  <string name="dialogNoCompass">The device doesn\'t have a compass, so we\'ll use GPS bearing instead.</string>
+  <string name="dialogOldVersionTitle">New version available</string>
+  <string name="dialogOldVersionContent">Update application to continue</string>
+  <string name="dialogNoContent">Sorry, we have no infromation about that location...</string>
+  <string name="dialogNoImage">No image...</string>
+  <string name="dialogNoImageCauseInternet">No image (Internet error)</string>
+  <string name="dialogMightTakeTime">With slow internet connection, loading might take some time.</string>
+  <string name="dialogAllObjectiveMarkersVisitedTitle">All done!</string>
+  <string name="dialogAllObjectiveMarkersVisitedMessage">You\'ve answered all questions for this theme! Click the chequered flag to receive feedback.</string>
+  <!-- Notification content-->
+  <string name="notificationLocationTrackingTitle">Location tracking is active</string>
+  <string name="notificationLocationTrackingContent">DigiTrail app is currently tracking your location</string>
+  <string name="notificationStopServiceButtonContent">Stop location tracking</string>
+  <string name="notificationBatteryLowTitle">Device\'s battery charge is low</string>
+  <string name="notificationPowerSaverTitle">Device\'s power saver has been activated</string>
+  <string name="notificationSeviceStoppedContent">Location tracking has been stopped</string>
+  <!--First run dialog-->
+  <string name="firstRunHelpTitle">Hey there!</string>
+  <string name="firstRunHelpText">You can find different trails from the left hand menu. First select "Trails", then the location you\'re at, and then the trail you wish to travel.\nRemember that this is a work-in-progress application, and it might not function as intended. If something doesn\'t work correctly, try restarting the application.</string>
+  <!--Toast content-->
+  <string name="toastExit">Press back again to exit.</string>
+  <string name="toastObjectiveReturn">Click \"Close\" when you\'re ready to return to the map.</string>
+  <string name="toastObjectiveMarkerAlreadyVisited">You\'ve already visited this marker and answered it\'s question.</string>
+  <string name="toastNearToMarker">You need to be closer to the marker in order to open it.</string>
+  <string name="toastCannotConfirmNearToMarker">Location is not known, we cannot confirm you are close enough to the marker.</string>
+  <string name="toastObjectiveVisitAgain">You can answer the question later by opening the marker again. You can do this by pressing the marker icon on the map.</string>
+  <!--SplashScreen-->
+  <string name="splashStart">Starting...</string>
+  <string name="splashInit">Initializing...</string>
+  <string name="splashConn">Connecting...</string>
+  <string name="splashFetch">Fetching data...</string>
+  <string name="splashCheck">Checking version...</string>
+  <string name="splashSync">Updating data...</string>
+  <string name="splashDone">Done!</string>
+  <!--GoogleMaps-->
+  <string name="gMapsStartingPoint">Start</string>
+  <string name="gMapsRouteGuide">Driving directions</string>
+  <!--SearchHint-->
+  <string name="SearchHint">Type search word...</string>
+  <!--Collapse textview-->
+  <string name="ReadMore">Read more</string>
+  <string name="ShowLess"> show less</string>
+  <!--DistanceMeter view-->
+  <string name="DistanceToStartpoint">Distance to start point</string>
+  <!--Emergencynum-->
+  <string name="Emergencynum">Emergency number: 112</string>
+  <!--PopUpFragment-->
+  <string name="popuptitle">notifications</string>
+  <!--Default feedback for Objective-->
+  <string name="defaultFeedbackTitle">Great job!</string>
+  <string name="defaultFeedbackTextPart1">You got\u0020</string>
+  <string name="defaultFeedbackTextPart2">\u0020points after answering\u0020</string>
+  <string name="defaultFeedbackTextPart3">\u0020questions out of\u0020</string>
+  <string name="defaultFeedbackTextPart4">\u0020questions.</string>
+</resources> 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ListFragmentItemLayout">
+    <TextView
+        android:id="@+id/tvListFragmentItemLarge"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_margin="10dp"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/tvListFragmentItemMedium"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_margin="10dp"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/tvListFragmentItemSmall"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        style="?android:attr/textAppearanceSmall"
+        android:layout_margin="10dp"
+        android:visibility="gone" />
+</LinearLayout>

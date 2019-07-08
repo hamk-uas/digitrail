@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25dp"
+    android:minHeight="25dp"
+	android:background="@color/dt_darkgreen">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/design_fab_shadow_end_color"
+        app:itemTextColor="@color/drawerTextColor">
+        <RelativeLayout
+			android:id="@+id/RelativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        <!-- Main Layout -->
+            <FrameLayout
+				android:id="@+id/frameLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/dt_darkgreen">
+                <com.mapbox.mapboxsdk.maps.MapView
+					app:mapbox_uiLogoGravity="right|end|bottom"
+					app:mapbox_uiAttributionGravity="right|end|bottom"
+					app:mapbox_uiLogoMarginBottom="10dp"
+					app:mapbox_uiLogoMarginRight="30dp"
+					app:mapbox_uiAttributionMarginBottom="10dp"
+					app:mapbox_uiAttributionMarginRight="10dp"
+					app:mapbox_uiCompassMarginRight="8dp"
+					app:mapbox_uiCompassMarginTop="84dp"
+					android:id="@+id/mapView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/dt_darkgreen"/>
+                <Button
+                    android:id="@+id/btnFinishTrail"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="290dp"
+                    android:elevation="6dp"
+                    android:layout_gravity="bottom|right"
+                    android:background="@drawable/btnStop"
+                    android:visibility="invisible" />
+                <Button
+                    android:id="@+id/btnMainBearing"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="220dp"
+                    android:elevation="6dp"
+                    android:layout_gravity="bottom|right"
+                    android:background="@drawable/btnMapRotation"
+                    android:visibility="invisible" />
+                <Button
+                    android:id="@+id/btnMainMyLocation"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="150dp"
+                    android:elevation="6dp"
+                    android:layout_gravity="bottom|right"
+                    android:background="@drawable/btnMyLocation" />
+                <Button
+                    android:id="@+id/btnShowMenu"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:elevation="6dp"
+                    android:layout_gravity="top|left"
+                    android:background="@drawable/btnMenu" />
+                <Button
+                    android:id="@+id/btnShowLegend"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:elevation="6dp"
+                    android:layout_gravity="top|right"
+                    android:background="@drawable/btnArrowLeft" />
+                <Button
+                    android:id="@+id/btnShowNotifications"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="190dp"
+                    android:layout_marginRight="55dp"
+                    android:elevation="6dp"
+                    android:text="1"
+                    android:layout_gravity="bottom|right"
+                    android:visibility="invisible"
+                    android:background="@drawable/notificationicon" />
+                <Button
+                    android:id="@+id/btnShowDevelop"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="70dp"
+                    android:elevation="6dp"
+                    android:layout_gravity="top|left"
+                    android:background="@drawable/developer"
+                    android:visibility="visible" />
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animation_view"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    app:lottie_fileName="markanim.json"
+                    app:lottie_loop="true"
+                    app:lottie_autoPlay="true"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true" />
+				<include 
+					android:id="@+id/CardViewTamplate"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"					
+					android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginBottom="25dp"                   
+                    android:layout_marginEnd="10dp"	
+					android:layout_gravity="bottom|right"
+                    android:visibility="invisible"
+					layout="@layout/distancemeterlayout"/>
+				<include 
+					android:id="@+id/EmergensyNum"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"					                  					
+					layout="@layout/emergencynumlayout"/>
+                <!-- bubblegum -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/CVloading"
+                    android:visibility="invisible"
+                    android:background="@color/dt_lightgreen60transp">
+                    <LinearLayout
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/dt_green">
+                   >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:id="@+id/tvLoadingTitle"
+                        android:text="@string/dialogAttentionTitle"/>
+                     <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                            android:padding="10dp"
+                        android:text="@string/dialogMightTakeTime"
+                        android:id="@+id/tvLoadingContent"/>
+                    </LinearLayout>
+                   </android.support.v7.widget.CardView>
+
+            <!-- Developer buttons ETC Layout -->
+                <RelativeLayout
+					android:id="@+id/rlDeveloperUI"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:visibility="gone"
+                    android:alpha="1"
+                    android:layout_gravity="top"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginRight="70dp">
+                    <Button
+                        android:id="@+id/btnDev1"                       
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="Dev1"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true" />
+                    <Button
+                        android:id="@+id/btnDev2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="Dev2"
+                        android:layout_toEndOf="@id/btnDev1"
+                        android:layout_toStartOf="@+id/btnDev3" />
+                    <Button
+                        android:id="@id/btnDev3"                        
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="Dev3"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true" />
+                    <Button
+                        android:id="@+id/btnDev4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="Dev4"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@id/btnDev1" />
+                    <Button
+                        android:id="@+id/btnDev5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="Dev5"
+                        android:layout_toEndOf="@id/btnDev4"
+                        android:layout_toStartOf="@+id/btnDev6"
+                        android:layout_below="@id/btnDev2" />
+                    <Button
+                        android:id="@+id/btnDev6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="Dev6"
+                        android:layout_alignParentEnd="true"
+                        android:layout_below="@id/btnDev3" />
+                    <TextView
+                        android:id="@+id/tvDev1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@id/btnDev4" />
+                </RelativeLayout>
+                <LinearLayout
+                    android:id="@+id/chartView"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+					android:layout_marginStart="5dp"
+					android:layout_marginBottom="5dp"
+                    android:layout_gravity="bottom|start"
+                    android:orientation="vertical"
+                    android:background="@color/dt_green"
+                    android:visibility="gone">
+                    <RelativeLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="top|center">
+                        <Button
+                            android:id="@+id/hideChart"
+                            android:layout_height="20dp"
+                            android:layout_width="20dp"
+                            android:layout_gravity="start"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_alignParentStart="true"
+                            android:background="@drawable/btnClose" />
+                        <Button
+                            android:id="@+id/expandeChart"
+                            android:layout_height="20dp"
+                            android:layout_width="20dp"
+                            android:layout_gravity="end"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_alignParentEnd="true"
+                            android:background="@drawable/btnEleArrow" />
+                        <Button
+                            android:id="@+id/minimizeChart"
+                            android:layout_height="20dp"
+                            android:layout_width="20dp"
+                            android:layout_gravity="end"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_alignParentEnd="true"
+                            android:background="@drawable/btnEleArrow"
+                            android:rotation="180"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+                    <com.github.mikephil.charting.charts.LineChart
+                        android:id="@+id/lineChart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@color/dt_green" />					             
+				</LinearLayout>	
+			 
+            </FrameLayout>
+            <Button
+                android:id="@+id/showChart"
+				android:layout_height="30dp"
+				android:layout_width="30dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/btnEleArrowDark"
+                android:visibility="gone" />
+        </RelativeLayout>
+		
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_height="match_parent"
+            android:layout_width="300dp"
+            android:layout_gravity="start"
+            android:background="@color/dt_lightgreen"
+            android:fitsSystemWindows="true"
+            app:itemIconTint="@color/drawerIconTint"
+            app:itemTextColor="@color/drawerTextColor"
+            app:headerLayout="@layout/nav_header" />
+		
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

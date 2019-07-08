@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--FINNISH LANGUAGE-->
+<resources>
+    <!--APPLICATION INFO-->
+  <string name="appName">DigiTrail</string>
+  <!--DrawerStates-->
+  <string name="openDrawer">Asetukset</string>
+  <string name="closeDrawer">DigiTrail</string>
+  <!--SettingsFragment-->
+  <string name="english">English</string>
+  <string name="finnish">Suomi</string>
+  <string name="optionLanguage">Kielet</string>
+  <string name="btnPickLang">Valitse kieli</string>
+  <string name="settingsTitle">Digitrail asetukset</string>
+  <string name="langError">Kieltä ei voitu vaihtaa</string>
+  <string name="langInUse">Kieleksi on jo määritetty \u0020</string>
+  <string name="gpsToast">GPS ja sijainti palvelut ovat päällä. Muista sammuttaa ne jälkeenpäin virran säästämiseksi</string>
+  <string name="optionMapStyle">Karttatyylit</string>
+  <string name="mapStyle">Valitse kartan ulkoasu/tyyli</string>
+  <string name="optionsIgnoreBatteryTitle">Älä huomioi akun tasoa</string>
+  <string name="optionsIgnoreBatterySummary">Taustaprosessit pidetään aktiivisena akun tilasta huolimatta</string>
+  <string name="optionsHideNotificationsTitle">Ilmoitusten piilotus</string>
+  <string name="optionsHideNotificationsSummary">Estää sovelluksen ilmoitusten näkymisen</string>
+  <!--LeftDrawer-->
+  <!--Features that aren't implemented yet have font tag to gray them out-->
+  <string name="drawerMap">Kartta</string>
+  <string name="drawerActivities">Aktiviteetit</string>
+  <string name="drawerTrails">Luontoreitit</string>
+  <string name="drawerEvents">Tapahtumat</string>
+  <string name="drawerSettings">Asetukset</string>
+  <string name="drawerSendFeedback">Lähetä palautetta</string>
+  <string name="drawerGuide">Ohje</string>
+  <string name="drawerTermsOS">Käyttöehdot</string>
+  <!-- ERRORS -->
+  <string name="errorTitle">Virhe</string>
+  <string name="errorFeatureNotInUse">Ominaisuus ei ole vielä käytössä!</string>
+  <string name="errorAlreadyInMap">Olet jo kartalla.</string>
+  <string name="errorNullFragment">Parametrinä annettu Fragment on null!</string>
+  <string name="errorListIsNull">Parametrinä annettu List on null!</string>
+  <string name="errorMarkerToMap">Pistettä ei pystytty lisäämään karttaan!</string>
+  <string name="errorThemeStart">Teemaa ei voitu aloittaa1</string>
+  <string name="errorFinishTrail">Reittiä ei voitu lopettaa!</string>
+  <string name="errorNoUserLocation">Laitetta ei voitu paikantaa!</string>
+  <string name="errorGpsPermissionDenied">Sovellus tarvitsee luvan sijaintitietojen käyttöön paikantaakseen laitten.</string>
+  <string name="errorGpsPermissionNeverAgain">Älä kysy uudelleen valittiin tai laitteen käytännöt estävät sovellusta käyttämästä sijaintitietoja laitteen paikannukseen. Tarkista sovelluksen käyttöoikeudet asetuksista.</string>
+  <string name="errorLoadingTrail">Reittitiedostoa ei voitu ladata verkosta tai avata muistista!</string>
+  <string name="errorProviderDisabled">Paikannus on kytketty pois päältä ja sijainnin seuranta on lopetettu</string>
+  <string name="errorNoChartData">Korkeustietoja ei ole saatavilla</string>
+  <string name="errorNoObjectiveController">Teemaa käynnistäessä on tapahtunut virhe, emmekä voi kirjata tehtäväpisteiden tuloksia. Yritä käynnistää teema uudelleen.</string>
+  <string name="errorObjectiveAlreadyVisited">Tulokset kirjaamisessa on tapahtunut virhe, eikä sen tulosta saada kirjattua ylös.</string>
+  <!--Generalized errors-->
+  <string name="errorNullParameter">Annettu parametri on null!</string>
+  <!--DB ERRORS-->
+  <string name="dbErrorLocationIsNullOrEmpty">Paremetrinä annettu kohde (Location) on null tai tyhjä!</string>
+  <string name="dbErrorTrailIdNullOrEmpty">Annettu reitin ID on null tai tyhjä!</string>
+  <string name="dbErrorMarkerIdNullOrEmpty">Annetun pisteen ID on null tai tyhjä!</string>
+  <string name="dbErrorMarkerListEmptyError">Tietokannasta ei saatu pisteitä kartalle!</string>
+  <string name="dbErrorNullClient">Asiakasta ei ole alustettu!</string>
+  <string name="dbErrorClientInitialized">Asiakas on jo alustettu!</string>
+  <string name="dbErrorGeneral">Virhe tietokannassa!</string>
+  <string name="dbErrorThemeIdNullOrEmpty">Annettu teeman ID on null tai tyhjä!</string>
+  <string name="dbErrorPositionNullOrEmpty">Position given as parameter is null or empty!</string>
+  <string name="dbErrorMarkerTypeIdNullOrEmpty">Annettu pisteen tyypin ID on null tai tyhjä!</string>
+  <string name="dbErrorLanguageNullOrEmpty">Annettu kieli on null tai tyhjä!</string>
+  <string name="dbErrorInvalid">Epäkelpo operaatio tietokannassa!</string>
+  <!--BUTTONS-->
+  <string name="btnOpen">Avaa</string>
+  <string name="btnClose">Sulje</string>
+  <string name="btnOk">OK</string>
+  <string name="btnRetry">Yritä uudelleen</string>
+  <string name="btnCancel">Peruuta</string>
+  <string name="btnYes">Kyllä</string>
+  <string name="btnNo">Ei</string>
+  <string name="btnExit">Poistu</string>
+  <string name="btnStartTrail">Aloita reitti</string>
+  <string name="btnSkip">Ohita</string>
+  <!--Dialog content-->
+  <string name="dialogDefaultTitle">Hups! Otsikko puuttuu</string>
+  <string name="dialogDefaultContent">Ei tietoa</string>
+  <string name="dialogAttentionTitle">Huomio</string>
+  <string name="dialogFinishTrailTitle">Lopeta reitti</string>
+  <string name="dialogFinishTrailContent">Haluatko lopettaa reitin?</string>
+  <string name="dialogGpsAttentionContent">Reittiopastus on poissa käytöstä koska lupaa sijainnin käyttöön ei ole annettu. Voit kuitekin vapaasti tutkia karttaa.</string>
+  <string name="dialogGpsTitle">Sijainnin seuraus ei ole päällä</string>
+  <string name="dialogGpsContent">Sijaintiasetus ei ole päällä, tai ei ole asetettu Korkea tarkkuus-tilaan. Voit selailla sovellusta, mutta emme voi näyttää sijaintiasi kartalla tai antaa sinulle opastusta reiteillä.\n\nHaluatko siirtyä asetuksiin?</string>
+  <string name="dialogInternetTitle">Ei Internet-yhteyttä</string>
+  <string name="dialogInternetContent">Emme havainneet aktiivista yhteyttä. Sovellus ei välttämättä pysty näyttämään karttaa eikä kaikkea sisältöä.</string>
+  <string name="dialogInternetContentFirstTime">Emme havainneet aktiivista yhteyttä. Sovellus vaatii ensimäisellä kerralla toimivan Internet-yhteyden hakeakseen toiminnan kannalta välttämättömiä tietoja.</string>
+  <string name="dialogHeadingBackTitle">Menossa takaisin?</string>
+  <string name="dialogHeadingBackContent">Näyttää siltä että olet kävelemässä toiseen suuntaan. Jatka matkaa ja alamme opastamaan sinua tähän suuntaan.</string>
+  <string name="dialogUserLostTitle">Älä eksy!</string>
+  <string name="dialogUserLostContent">Näyttää siltä että kävelit ohi polusta. Pieni seikkailu ei haittaa, kunhan et vain eksy.</string>
+  <string name="dialogSendFeedBackTitle">Palaute</string>
+  <string name="dialogSendFeedBackContent">Haluatko lähettää palautetta? Kyselylomake avataan web-selaimellasi.</string>
+  <string name="dialogWarning">Varoitus</string>
+  <string name="dialogTrailWarning">Reitti avattiin laitteen muistista, koska aktiivista verkkoyhteyttä ei havaittu. Tiedot eivät välttämättä ole ajan tasalla, joten ole varovainen!</string>
+  <string name="dialogHelpTitle">Opas</string>
+  <string name="dialogNoCompass">Joudumme käyttämään satelliittipaikannuksen antamaa suuntaa, koska laitteessa ei ole kompassia.</string>
+  <string name="dialogOldVersionTitle">Uusi versio saatavilla</string>
+  <string name="dialogOldVersionContent">Päivitä sovellus jatkaaksesi</string>
+  <string name="dialogNoContent">Valitettavasti meillä ei ole lisätietoja kyseisestä paikasta...</string>
+  <string name="dialogNoImage">Ei kuvaa...</string>
+  <string name="dialogNoImageCauseInternet">Ei kuvaa (Yhteysvirhe)</string>
+  <string name="dialogMightTakeTime">Hitaalla internetyhteydellä sisällön lataaminen saattaa kestää kauan.</string>
+  <string name="dialogAllObjectiveMarkersVisitedTitle">Valmista!</string>
+  <string name="dialogAllObjectiveMarkersVisitedMessage">Olet vastannut teeman kaikkiin kysymyksiin! Saadaksesi palautteen, paina ruutulippua.</string>
+  <!-- Notification content-->
+  <string name="notificationLocationTrackingTitle">Sijainnin seuranta on päällä</string>
+  <string name="notificationLocationTrackingContent">DigiTrail sovellus seuraa sijaintiasi</string>
+  <string name="notificationStopServiceButtonContent">Lopeta sijainnin seuraaminen</string>
+  <string name="notificationBatteryLowTitle">Laitteen akun varaus on matala</string>
+  <string name="notificationPowerSaverTitle">Laitteen virransäästö kytkettiin päälle</string>
+  <string name="notificationSeviceStoppedContent">Sijainnin seuraaminen on lopetettu</string>
+  <!--First run dialog-->
+  <string name="firstRunHelpTitle">Heippa!</string>
+  <string name="firstRunHelpText">Löydät eri luontoreitit vasemman puolen valikosta. Valitse valikosta \"Reitit\", jonka jälkeen näet eri retkeilyalueet. Valitse haluamasi alue, ja näet alueen eri luontoreitit. Valitse tämän jälkeen reitti, jonka haluat kulkea.\nMuista, että kyseessä on kehitysasteella oleva sovellus. Jos jokin ei toimi odotetusti, yritä käynnistää sovellus uudelleen.</string>
+  <!--Toast content-->
+  <string name="toastExit">Paina vielä kerran taakse sulkeaksesi sovelluksen.</string>
+  <string name="toastObjectiveReturn">Valitse \"Sulje\" kun haluat palata takaisin karttaan.</string>
+  <string name="toastObjectiveMarkerAlreadyVisited">Olet jo käyny tällä pisteellä ja vastannut kysymykseen.</string>
+  <string name="toastNearToMarker">Sinun täytyy olla lähempänä pistettä avataksesi sen.</string>
+  <string name="toastCannotConfirmNearToMarker">Sijaintisi ei ole tiedossa, joten emme voi varmistaa että olet pisteen lähellä.</string>
+  <string name="toastObjectiveVisitAgain">Voit vastaka kysymykseen myöhemmin avaamalla pisteen uudelleen. Voit tehdä sen painamalla pisteen ikonia kartalla.</string>
+  <!--SplashScreen-->
+  <string name="splashStart">Käynnistetään...</string>
+  <string name="splashInit">Alustetaan...</string>
+  <string name="splashConn">Yhdistetään...</string>
+  <string name="splashFetch">Haetaan tietoja...</string>
+  <string name="splashCheck">Tarkistetaan versiota...</string>
+  <string name="splashSync">Päivitetään tietoja...</string>
+  <string name="splashDone">Valmis!</string>
+  <!--GoogleMaps-->
+  <string name="gMapsStartingPoint">Reitti alkaa tästä</string>
+  <string name="gMapsRouteGuide">Ajo-ohjeet</string>
+ <!--SearchHint-->
+  <string name="SearchHint">Kirjoita hakusana...</string>
+  <!--Collapse textview-->
+  <string name="ReadMore">Lue lisää</string>
+  <string name="ShowLess"> näytä vähemmän</string>
+  <!--DistanceMeter view-->
+  <string name="DistanceToStartpoint">Matka aloituspisteelle</string>
+  <!--Emergencynum-->
+  <string name="Emergencynum">Hätänumero: 112</string>
+  <!--PopUpFragment-->
+  <string name="popuptitle">ilmoitusta</string>
+  <!--Default feedback for Objective-->
+  <string name="defaultFeedbackTitle">Hieno suoritus!</string>
+  <string name="defaultFeedbackTextPart1">Sait\u0020</string>
+  <string name="defaultFeedbackTextPart2">\u0020pistettä käytyäsi\u0020</string>
+  <string name="defaultFeedbackTextPart3">\u0020tehtäväpisteellä\u0020</string>
+  <string name="defaultFeedbackTextPart4">\u0020pisteestä.</string>
+</resources>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen
+  xmlns:android ="http://schemas.android.com/apk/res/android">
+  <ListPreference
+    android:key="language"
+    android:title="@string/optionLanguage"
+    android:summary="@string/btnPickLang"
+    android:entries ="@array/langOptions"
+    android:entryValues="@array/langValues"
+    android:enabled="false"/>
+  
+  <SwitchPreference
+    android:key="ignoreBattery"
+    android:title="@string/optionsIgnoreBatteryTitle"
+    android:summary="@string/optionsIgnoreBatterySummary"
+    android:defaultValue="false"/>
+
+  <!--<ListPreference
+    android:key="mapStyle"
+    android:title="@string/optionMapStyle"
+    android:summary="@string/mapStyle"
+    android:entries="@array/mapStyleOptions"
+    android:entryValues="@array/mapStyleValues"
+    android:defaultValue="1"/>-->
+
+  <SwitchPreference
+  android:key="hideNotifications"
+  android:title="@string/optionsHideNotificationsTitle"
+  android:summary="@string/optionsHideNotificationsSummary"
+  android:defaultValue="false"/>
+
+</PreferenceScreen>

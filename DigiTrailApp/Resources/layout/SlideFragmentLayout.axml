@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/slide" 
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent" 
+	android:background="@color/dt_darkgreen">
+  <ScrollView 
+	android:id="@+id/ScrollContainer"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:padding="10dp"
+	android:scrollbars="vertical"
+	android:layout_alignParentTop='true'
+	android:layout_above="@+id/closeFragment">
+    <RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="5dp">
+		<TextView android:id="@+id/title" 
+			android:text="Title" 
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content" 
+			android:gravity="center_horizontal"
+			android:layout_alignParentTop="true"/>
+		<ImageView
+			android:id="@+id/image" 
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content" 
+			android:layout_below="@+id/title" 
+			android:layout_marginTop="10dp"
+			android:scaleType="fitXY" 
+			android:adjustViewBounds="true" />
+		<TextView 
+			android:id="@+id/content" 
+			android:text="Content" 
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content" 
+			android:layout_below="@+id/image" />
+		<TextView 
+			android:id="@+id/link" 
+			android:text="Link" 
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content" 
+			android:layout_below="@+id/content" 
+			android:autoLink="web" />
+		<TextView 
+			android:id="@+id/page" 
+			android:text="Page Number" 
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content" 
+			android:layout_below="@+id/link" 
+			android:gravity="center_horizontal"
+			android:autoLink="web"/>
+	</RelativeLayout>
+  </ScrollView>
+	<Button
+		android:id="@+id/closeFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginBottom="20dp"
+        android:text="@string/btnClose"
+        android:background="@color/dt_lightgreen"
+        android:layout_centerHorizontal="true" 
+		android:layout_alignParentBottom="true"/>
+</RelativeLayout>

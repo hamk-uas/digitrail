@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dt_darkgreen">
+    <ScrollView
+        android:id="@+id/svMarkerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btnMarkerLayoutClose"
+        android:isScrollContainer="true"
+        android:scrollbars="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:padding="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvMarkerLayoutTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+				android:text ="Title"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <ImageView
+                android:id="@+id/ivMarkerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:layout_centerInParent="true"
+				android:layout_below="@+id/tvMarkerLayoutTitle"
+                android:adjustViewBounds="true"
+                android:src="@android:drawable/ic_menu_gallery"
+                android:scaleType="fitCenter"
+                android:visibility="gone" />
+            <TextView
+                android:id="@+id/tvMarkerLayoutDescription"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+				android:layout_below="@+id/ivMarkerLayout"
+				android:text="Description"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+				android:autoLink="web"/>
+			<TextView
+				android:id="@+id/link"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_below="@+id/tvMarkerLayoutDescription"
+				android:text="Link"
+				android:visibility="invisible"
+				android:autoLink="web"/>
+        </RelativeLayout>
+    </ScrollView>
+    <Button
+        android:id="@id/btnMarkerLayoutClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginBottom="20dp"
+        android:text="@string/btnClose"
+        android:background="@color/dt_lightgreen"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

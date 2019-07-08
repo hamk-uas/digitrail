@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+  <color name="dt_green">#587324</color>
+  <color name="dt_darkgreen">#2c4700</color>
+  <color name="dt_lightgreen">#87a250</color>
+  <color name="dt_lightgreen60transp">#B387a250</color>
+  <color name="dt_lightgreen80transp">#D987a250</color>
+  <color name="dt_orange">#c15700</color>
+  <color name="dt_darkOrange">#C43500</color>
+  <color name="drawerIconTint">#587324</color>
+  <color name="drawerTextColor">#f5f5f5</color>
+  <color name="drawerItemBackground">#87a250</color>
+  <color name="mapbox_blue">#696bd3</color>
+  <color name="fullyTransparent">#00000000</color>
+  
+  <style name="DigiTrailTheme" parent="DigiTrailTheme.Base" >
+    <item name="android:colorPrimaryDark">@color/dt_darkgreen</item>
+    <item name="android:colorPrimary">@color/dt_green</item>
+    <item name="android:colorAccent">@color/dt_orange</item>
+    <item name="colorControlHighlight">@color/dt_darkgreen</item>
+    <item name="android:textColor">@color/drawerTextColor</item>
+    <item name="android:textColorPrimary">@color/drawerTextColor</item>    
+    <!--Theme assignment for PreferenceFragment-->
+    <item name="preferenceTheme">@style/DigiTrailTheme</item>
+    <item name="dialogTheme">@style/DigiTrailAlterDialogTheme</item>
+  </style>
+  
+  <!--Theme for AlterDialogFragment-->
+  <style name="DigiTrailAlterDialogTheme" parent="Theme.AppCompat.Dialog">
+    <item name="android:textColor">@color/dt_green</item>
+    <item name="android:textColorPrimary">@color/dt_green</item>
+  </style>
+  
+  <style name="DigiTrailTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!--Navigation bar (home button etc.) color-->
+    <item name="android:navigationBarColor">@color/dt_darkgreen</item>
+    <item name="android:windowLightNavigationBar">false</item>
+    <item name="windowNoTitle">true</item>
+    <!--We will be using the toolbar so no need to show ActionBar-->
+    <item name="windowActionBar">false</item>
+    <!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette-->
+    <!-- colorPrimary is used for the default action bar background -->
+    <item name="colorPrimary">@color/dt_green</item>
+    <!-- colorPrimaryDark is used for the status bar -->
+    <item name="colorPrimaryDark">@color/dt_darkgreen</item>
+    <!-- colorAccent is used as the default value for colorControlActivated
+         which is used to tint widgets -->
+    <item name="colorAccent">@color/dt_orange</item>
+    <item name="colorControlHighlight">@color/dt_darkgreen</item>
+    <!-- You can also set colorControlNormal, colorControlActivated
+         colorControlHighlight and colorSwitchThumbNormal. -->
+    <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+  </style>
+  
+  <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+    <item name="spinBars">true</item>
+    <item name="color">@color/drawerTextColor</item>
+  </style>
+  
+</resources>

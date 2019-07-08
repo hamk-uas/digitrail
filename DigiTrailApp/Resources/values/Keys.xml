@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!--MapBox-->
+  <string name="accessToken">Your Mapbox AccessToken here (pk.ey....)</string>
+  <string name="styleUrl">Your mapbox map style here mapbox://styles/digitrailfinland/.....</string>
+</resources>

@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Azure Setup for DigiTrail </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Azure Setup for DigiTrail ">
+    <meta name="generator" content="docfx 2.43.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="azure-setup-for-digitrail">Azure Setup for DigiTrail</h1>
+
+<p>Guide how to setup Azure cloud services for DigiTrail
+-PictureHere-</p>
+<h1 id="mobile-app-service">Mobile App Service</h1>
+<p>The mobile application uses a Mobile App Service as the backend solution. The Mobile App Service is configured to use Easy Tables Node.js backend through the Easy Tables-section in Azure web portal1. The URL of the backend is set in the Constants class.
+The mobile application synchronises database data with the user device and uses Offline Tables2 after synchronisation when accessing database data.
+-PicHere-</p>
+<h1 id="external-resources">External Resources</h1>
+<p>The application uses the HttpClient class to download files from the Internet, including trail files and images. The URL addresses of the external resources are stored in the database in “files” columns.</p>
+<ol>
+<li>Create a database connection and configure the client and server project, Section 3. <a href="https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-xamarin-android-get-started#create-a-database-connection-and-configure-the-client-and-server-project">https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-xamarin-android-get-started#create-a-database-connection-and-configure-the-client-and-server-project</a> </li>
+<li>Work with Offline Tables. <a href="https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-dotnet-how-to-use-client-library#work-with-offline-tables">https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-dotnet-how-to-use-client-library#work-with-offline-tables</a></li>
+</ol>
+<h1 id="database-structure">Database Structure</h1>
+<p>Tables in the database have been created using Easy Tables -section in the Azure web portal. This automatically generates all the fields required for the table to work with Easy Tables. The relations and custom data types have been assigned through SQL Server Manager3.
+Because Easy Tables does not apply relation rules on soft delete actions on rows, custom triggers have been created for all relations where CASCADE or NO ACTION rule applies. With the custom triggers, when a parent row is soft deleted, the relation rule is applied, either cascading when the parent row is soft deleted in the case of CASCADE rule, or reverting the soft delete in the case of NO ACTION rule.
+The script for creating the default database can be found in the ./database folder.</p>
+<ol>
+<li>SQL Server Management Studio (SSMS). <a href="https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15">https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15</a>
+-DiagramHere-</li>
+</ol>
+<h1 id="digitrail-project-setup">DigiTrail project setup</h1>
+<p>Replace ./Helpers/Constants (Constants.BackendURL) with Azure backendURL</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

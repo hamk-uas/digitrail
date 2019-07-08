@@ -1,0 +1,705 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/antti1/source/repos/DocFx/DocFx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "License.md",
+      "output": {
+        ".html": {
+          "relative_path": "License.html",
+          "hash": "ERU695z4dVW5VXfLpfwxjw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "22esKOkClkVJ5xZTxwoIXg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/DigitrailProject.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/DigitrailProject.html",
+          "hash": "W5hZ+2FBOYR9duTZkY47sg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/azure.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/azure.html",
+          "hash": "eTXI0HcrNTU4G8gOkVaXAg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/azureCloudservices.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/azureCloudservices.html",
+          "hash": "3GgVx3Z6qyb9Mfu2/dTmZg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "oo3ia6ltJq8yQBLiWqIz2Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/mapbox.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/mapbox.html",
+          "hash": "Zd8Dm1i113bbk4ssoILFyA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/mapboxAndNaxam.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/mapboxAndNaxam.html",
+          "hash": "lTZX3RouEnUKo9grOdPFDw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "wMdSOZy5dyA1oNiTEtER7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "gsus7vzzKim9UmQ1rNTeZg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Adapters.RecyclerPopUpAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Adapters.RecyclerPopUpAdapter.html",
+          "hash": "Gk7hjgiFyxa9Vjcmw9ApQA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Adapters.TrailAdapterRecyclerView.TrailsFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Adapters.TrailAdapterRecyclerView.TrailsFilter.html",
+          "hash": "g7VsVbPJzUPP/Cg3UZxVfg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Adapters.TrailAdapterRecyclerView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Adapters.TrailAdapterRecyclerView.html",
+          "hash": "jAITZKyYrUhiDC5l6FgCEw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Adapters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Adapters.html",
+          "hash": "wyxEg65EVguh5lldkW4wPg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.AzureTables.BaseModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.AzureTables.BaseModel.html",
+          "hash": "hy7Mfljg/Mh/9qcESKjUMg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.AzureTables.Marker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.AzureTables.Marker.html",
+          "hash": "1J5YV3AdSE9svdK2ntXEhA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.AzureTables.MarkerTranslation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.AzureTables.MarkerTranslation.html",
+          "hash": "ZebVBcsReY+EMuGgvHk3tw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.AzureTables.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.AzureTables.html",
+          "hash": "ia8biFCKTZIfsj4iHvrgzg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.BackgroudTasks.TrailGuide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.BackgroudTasks.TrailGuide.html",
+          "hash": "ckS5H7sLwOnJrvqD8ke+HA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.BackgroudTasks.UserInRangeService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.BackgroudTasks.UserInRangeService.html",
+          "hash": "EfFxKDEsmKqHWlpLhH/V6A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.BackgroudTasks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.BackgroudTasks.html",
+          "hash": "X1abCLQPw/pc5OZ14IXZNg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Constants.html",
+          "hash": "VjnCqQ5cp709WUzKncmFpA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Fragments.AlertDialogFragment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Fragments.AlertDialogFragment.html",
+          "hash": "0AoGN9BBHHf7xGWIF6Fw+Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Fragments.CustomDialogFragment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Fragments.CustomDialogFragment.html",
+          "hash": "yr/p6bYmt3aR0aYS54hHmQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Fragments.ListFragment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Fragments.ListFragment.html",
+          "hash": "zfF+HCsC9LgRw0GE3soxaw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Fragments.LocationsFragment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Fragments.LocationsFragment.html",
+          "hash": "PjrwTPWewPXB07ofRVMtLg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Fragments.PopUpRecycleFragment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Fragments.PopUpRecycleFragment.html",
+          "hash": "V63EI2jGHnydqexaE5wHkw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Fragments.TrailsFragment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Fragments.TrailsFragment.html",
+          "hash": "yattZRWEAjV0MWSfEr0VWQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Fragments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Fragments.html",
+          "hash": "CTC6wVQbDgyYWYeouYWL0w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Helpers.AnimatorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Helpers.AnimatorExtensions.html",
+          "hash": "nYRkdBug183dUM6RxZbNuA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Helpers.AppActionBarDrawerToggle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Helpers.AppActionBarDrawerToggle.html",
+          "hash": "x6p6R0JwbcxNfwqcRXggDA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Helpers.DialogBroadcastReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Helpers.DialogBroadcastReceiver.html",
+          "hash": "suJnLN2Wy9EC7h8VQ8QtQA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "ReferencedXrefPropertyNotString"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Helpers.LocaleManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Helpers.LocaleManager.html",
+          "hash": "Atw/N6E9P5bpKXgvcyZC7g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Helpers.MapDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Helpers.MapDrawer.html",
+          "hash": "8NAQSbHup00qhE7OcteJlA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Helpers.PopUpViewHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Helpers.PopUpViewHolder.html",
+          "hash": "B9fuz62mBRvCu1VHlFb/Ag=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Helpers.TrailResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Helpers.TrailResult.html",
+          "hash": "8HF9XUMC6QJqXvNZjrnrrA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Helpers.html",
+          "hash": "mrFLszK7dTP5TOfI4thQGQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Interfaces.IBroadcastListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Interfaces.IBroadcastListener.html",
+          "hash": "mFsaAwgVKPtaw7f4keF1+g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Interfaces.ICustomDialogListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Interfaces.ICustomDialogListener.html",
+          "hash": "rita6KB72Jdk3Nti6u310Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Interfaces.IOnDialogDismissedListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Interfaces.IOnDialogDismissedListener.html",
+          "hash": "v/ydSVUy2Nlik21/ETlDlg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Interfaces.IOnItemRemovedListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Interfaces.IOnItemRemovedListener.html",
+          "hash": "cv8MBvv7oeeaottNIVTB3g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Interfaces.IOnListItemSelectedListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Interfaces.IOnListItemSelectedListener.html",
+          "hash": "SOeTZwAKIRz1UQZze4mF/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Interfaces.html",
+          "hash": "fP6vbaPagE1/BDMsQhsXPw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Launcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Launcher.html",
+          "hash": "YOJMwjE69FPCTO4Ag/JURA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.MainActivity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.MainActivity.html",
+          "hash": "7CBr2J1ou0phsBFkWhzehQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Models.JavaHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Models.JavaHolder.html",
+          "hash": "SXLy0gUoGw6QASbW+MOPsg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Models.ListFragmentItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Models.ListFragmentItem.html",
+          "hash": "j63iNHzmqSON42dSZ5fzIw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Models.ObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Models.ObjectExtensions.html",
+          "hash": "e+D5Icpj+Hj6hNRLjLjC7A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Models.TrailList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Models.TrailList.html",
+          "hash": "8XOpX0nH0L47k4xfzcZDrA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.Models.html",
+          "hash": "AaQeCn4X7MIz+MDhgAa7Yg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.SplashScreen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.SplashScreen.html",
+          "hash": "dFG+OjMdTb8x+EXbj42Wrg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/DigiTrailApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DigiTrailApp.html",
+          "hash": "ns0eUR24N2/Zb1zYMdwBzA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "nWkUFL1ZYoTD0Wh12pU6OA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Sg+nKmnHP++YKMT39ruhpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 42,
+          "skipped_file_count": 42
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 9
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

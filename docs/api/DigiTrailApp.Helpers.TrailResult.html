@@ -1,0 +1,814 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TrailResult
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TrailResult
+   ">
+    <meta name="generator" content="docfx 2.43.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DigiTrailApp.Helpers.TrailResult">
+  
+  
+  <h1 id="DigiTrailApp_Helpers_TrailResult" data-uid="DigiTrailApp.Helpers.TrailResult" class="text-break">Class TrailResult
+  </h1>
+  <div class="markdown level0 summary"><p>Trail results model</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">TrailResult</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DigiTrailApp.Helpers.html">DigiTrailApp.Helpers</a></h6>
+  <h6><strong>Assembly</strong>: DigiTrailApp.dll</h6>
+  <h5 id="DigiTrailApp_Helpers_TrailResult_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TrailResult : object</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-48">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_BackCounter_" data-uid="DigiTrailApp.Helpers.TrailResult.BackCounter*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_BackCounter" data-uid="DigiTrailApp.Helpers.TrailResult.BackCounter">BackCounter</h4>
+  <div class="markdown level1 summary"><p>Counter used to check if user starts to go back the trail</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int BackCounter { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-99">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_CalculatedDistanceToEnd_" data-uid="DigiTrailApp.Helpers.TrailResult.CalculatedDistanceToEnd*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_CalculatedDistanceToEnd" data-uid="DigiTrailApp.Helpers.TrailResult.CalculatedDistanceToEnd">CalculatedDistanceToEnd</h4>
+  <div class="markdown level1 summary"><p>Dictance to startpoint (traillenght + user location - trail lenght)
+<p>returns meters</p>        </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int CalculatedDistanceToEnd { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-104">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_CalculatedDistanceToMid_" data-uid="DigiTrailApp.Helpers.TrailResult.CalculatedDistanceToMid*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_CalculatedDistanceToMid" data-uid="DigiTrailApp.Helpers.TrailResult.CalculatedDistanceToMid">CalculatedDistanceToMid</h4>
+  <div class="markdown level1 summary"><p>Dictance to startpoint (traillenght + user location - trail lenght)
+<p>returns meters</p>        </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int CalculatedDistanceToMid { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-94">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_CalculatedDistanceToStart_" data-uid="DigiTrailApp.Helpers.TrailResult.CalculatedDistanceToStart*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_CalculatedDistanceToStart" data-uid="DigiTrailApp.Helpers.TrailResult.CalculatedDistanceToStart">CalculatedDistanceToStart</h4>
+  <div class="markdown level1 summary"><p>Dictance to startpoint (traillenght - user location + trail lenght)
+<p>returns meters</p>        </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int CalculatedDistanceToStart { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-79">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_DistanceToEndPoint_" data-uid="DigiTrailApp.Helpers.TrailResult.DistanceToEndPoint*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_DistanceToEndPoint" data-uid="DigiTrailApp.Helpers.TrailResult.DistanceToEndPoint">DistanceToEndPoint</h4>
+  <div class="markdown level1 summary"><p>Dictance to end point (as the crow flies)
+<p>returns meters</p>        </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int DistanceToEndPoint { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-84">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_DistanceToMidPoint_" data-uid="DigiTrailApp.Helpers.TrailResult.DistanceToMidPoint*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_DistanceToMidPoint" data-uid="DigiTrailApp.Helpers.TrailResult.DistanceToMidPoint">DistanceToMidPoint</h4>
+  <div class="markdown level1 summary"><p>Dictance to middle point (as the crow flies)
+<p>returns meters</p>        </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int DistanceToMidPoint { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-124">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_DistanceToNearestTrailPoint_" data-uid="DigiTrailApp.Helpers.TrailResult.DistanceToNearestTrailPoint*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_DistanceToNearestTrailPoint" data-uid="DigiTrailApp.Helpers.TrailResult.DistanceToNearestTrailPoint">DistanceToNearestTrailPoint</h4>
+  <div class="markdown level1 summary"><p>user distance to nearest point on the trail
+<p>returns meters</p>        </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int DistanceToNearestTrailPoint { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-74">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_DistanceToStartPoint_" data-uid="DigiTrailApp.Helpers.TrailResult.DistanceToStartPoint*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_DistanceToStartPoint" data-uid="DigiTrailApp.Helpers.TrailResult.DistanceToStartPoint">DistanceToStartPoint</h4>
+  <div class="markdown level1 summary"><p>Dictance to start point (as the crow flies)
+<p>returns meters</p>        </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int DistanceToStartPoint { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-114">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_ElapsedDateTime_" data-uid="DigiTrailApp.Helpers.TrailResult.ElapsedDateTime*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_ElapsedDateTime" data-uid="DigiTrailApp.Helpers.TrailResult.ElapsedDateTime">ElapsedDateTime</h4>
+  <div class="markdown level1 summary"><p>Elapsed time to finish the trip (based on UserSpeed)
+<p>returns datetime</p>        </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime ElapsedDateTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-109">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_ElapsedTime_" data-uid="DigiTrailApp.Helpers.TrailResult.ElapsedTime*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_ElapsedTime" data-uid="DigiTrailApp.Helpers.TrailResult.ElapsedTime">ElapsedTime</h4>
+  <div class="markdown level1 summary"><p>Elapsed time to finish the trip (based on dificultu level)
+<p>returns minutes</p>        </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ElapsedTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-43">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_ForwardCounter_" data-uid="DigiTrailApp.Helpers.TrailResult.ForwardCounter*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_ForwardCounter" data-uid="DigiTrailApp.Helpers.TrailResult.ForwardCounter">ForwardCounter</h4>
+  <div class="markdown level1 summary"><p>Counter used to check if user have gone past the middle point of the trail</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ForwardCounter { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-18">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_GoingBack_" data-uid="DigiTrailApp.Helpers.TrailResult.GoingBack*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_GoingBack" data-uid="DigiTrailApp.Helpers.TrailResult.GoingBack">GoingBack</h4>
+  <div class="markdown level1 summary"><p>Is user going back
+<p>True or False</p></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GoingBack { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-23">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_GoingBackDialogSent_" data-uid="DigiTrailApp.Helpers.TrailResult.GoingBackDialogSent*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_GoingBackDialogSent" data-uid="DigiTrailApp.Helpers.TrailResult.GoingBackDialogSent">GoingBackDialogSent</h4>
+  <div class="markdown level1 summary"><p>Has user received dialog about going back
+<p>True or False</p>        </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GoingBackDialogSent { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-33">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_IsOverHalfway_" data-uid="DigiTrailApp.Helpers.TrailResult.IsOverHalfway*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_IsOverHalfway" data-uid="DigiTrailApp.Helpers.TrailResult.IsOverHalfway">IsOverHalfway</h4>
+  <div class="markdown level1 summary"><p>Has user walked pass the middle point
+<p>True or False</p>        </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsOverHalfway { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-54">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_IsTrailFinished_" data-uid="DigiTrailApp.Helpers.TrailResult.IsTrailFinished*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_IsTrailFinished" data-uid="DigiTrailApp.Helpers.TrailResult.IsTrailFinished">IsTrailFinished</h4>
+  <div class="markdown level1 summary"><p>Has user finished the trail
+<p>True or False</p></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsTrailFinished { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-38">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_IsTrailStarted_" data-uid="DigiTrailApp.Helpers.TrailResult.IsTrailStarted*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_IsTrailStarted" data-uid="DigiTrailApp.Helpers.TrailResult.IsTrailStarted">IsTrailStarted</h4>
+  <div class="markdown level1 summary"><p>Has user started the trail
+<p>True or False</p>        </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsTrailStarted { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-64">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_LastTrailPointIndex_" data-uid="DigiTrailApp.Helpers.TrailResult.LastTrailPointIndex*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_LastTrailPointIndex" data-uid="DigiTrailApp.Helpers.TrailResult.LastTrailPointIndex">LastTrailPointIndex</h4>
+  <div class="markdown level1 summary"><p>What was the nearest point last time
+<p>Integer</p>        </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int LastTrailPointIndex { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-28">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_LostDialogSent_" data-uid="DigiTrailApp.Helpers.TrailResult.LostDialogSent*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_LostDialogSent" data-uid="DigiTrailApp.Helpers.TrailResult.LostDialogSent">LostDialogSent</h4>
+  <div class="markdown level1 summary"><p>Has user received dialog not to get lost
+<p>True or False</p>        </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool LostDialogSent { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-69">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_MiddlePointIndex_" data-uid="DigiTrailApp.Helpers.TrailResult.MiddlePointIndex*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_MiddlePointIndex" data-uid="DigiTrailApp.Helpers.TrailResult.MiddlePointIndex">MiddlePointIndex</h4>
+  <div class="markdown level1 summary"><p>Is user on the trail
+<p>Integer</p>        </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int MiddlePointIndex { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-59">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_NearestTrailPointIndex_" data-uid="DigiTrailApp.Helpers.TrailResult.NearestTrailPointIndex*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_NearestTrailPointIndex" data-uid="DigiTrailApp.Helpers.TrailResult.NearestTrailPointIndex">NearestTrailPointIndex</h4>
+  <div class="markdown level1 summary"><p>What is nearest LatLng point from user
+<p>Integer</p>        </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int NearestTrailPointIndex { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-119">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_TimeInMinutes_" data-uid="DigiTrailApp.Helpers.TrailResult.TimeInMinutes*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_TimeInMinutes" data-uid="DigiTrailApp.Helpers.TrailResult.TimeInMinutes">TimeInMinutes</h4>
+  <div class="markdown level1 summary"><p>Calculate time to finish trip or back to start (if user has a speed)
+<p>returns minutes</p>        </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int TimeInMinutes { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-89">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_TrailLenght_" data-uid="DigiTrailApp.Helpers.TrailResult.TrailLenght*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_TrailLenght" data-uid="DigiTrailApp.Helpers.TrailResult.TrailLenght">TrailLenght</h4>
+  <div class="markdown level1 summary"><p>Calculated trail lenght
+<p>returns meters</p>        </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float TrailLenght { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-12">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_UserOnRange_" data-uid="DigiTrailApp.Helpers.TrailResult.UserOnRange*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_UserOnRange" data-uid="DigiTrailApp.Helpers.TrailResult.UserOnRange">UserOnRange</h4>
+  <div class="markdown level1 summary"><p>Is user on the trail
+<p>True or False</p>        </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool UserOnRange { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  <span class="small pull-right mobile-hide">
+    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-129">View Source</a>
+  </span>
+  <a id="DigiTrailApp_Helpers_TrailResult_ResetResult_" data-uid="DigiTrailApp.Helpers.TrailResult.ResetResult*"></a>
+  <h4 id="DigiTrailApp_Helpers_TrailResult_ResetResult" data-uid="DigiTrailApp.Helpers.TrailResult.ResetResult">ResetResult()</h4>
+  <div class="markdown level1 summary"><p>Function to reset all variables in <a class="xref" href="DigiTrailApp.Helpers.TrailResult.html">TrailResult</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ResetResult()</code></pre>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="DigiTrailApp.Models.ObjectExtensions.html#DigiTrailApp_Models_ObjectExtensions_ToJavaObject__1___0_">ObjectExtensions.ToJavaObject&lt;TObject&gt;(TObject)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://bitbucket.org/smart_services/digitrail/src/DigiTrailOpenSource/DigiTrailApp/Helpers/TrailResult.cs#lines-7" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
